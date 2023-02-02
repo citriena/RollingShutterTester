@@ -286,7 +286,7 @@ void key_read() {
 
 void printInterval() {
   lcd.setCursor(8, 1);
-  if (switchingTime < 100000) lcd.print(" ");2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+  if (switchingTime < 100000) lcd.print(" ");
   if (switchingTime <  10000) lcd.print(" ");
 //  if (switchingTime < 1000)  lcd.print(" ");
 //  if (switchingTime < 100)   lcd.print(" ");
